@@ -14,7 +14,7 @@
 
 SERVER_SRCS		=	server.c ft_atoi.c  ft_declen.c  ft_hex.c  ft_hexp.c  ft_intlen.c  ft_putchar_fd.c  ft_putnbr_fd.c  ft_putnbrn_fd.c  ft_putstr_fd.c  ft_strlen.c  ft_strrev.c  ft_undeclen.c printf.c\
 
-CLIENT_SRCS		=	client.c ft_atoi.c  ft_declen.c  ft_hex.c  ft_hexp.c  ft_intlen.c  ft_putchar_fd.c  ft_putnbr_fd.c  ft_putnbrn_fd.c  ft_putstr_fd.c  ft_strlen.c  ft_strrev.c  ft_undeclen.c printf.c\
+CLIENT_SRCS		=	client.c ft_atoi.c  ft_declen.c  ft_hex.c  ft_hexp.c  ft_intlen.c  ft_putchar_fd.c  ft_putnbr_fd.c  ft_putnbrn_fd.c  ft_putstr_fd.c  ft_strlen.c  ft_strrev.c  ft_undeclen.c printf.c ft_isprint.c\
 
 RM			= rm -f
 CFLAGS		= -Wall -Wextra -Werror

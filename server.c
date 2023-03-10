@@ -42,7 +42,7 @@ void	ft_sighand(int sig)
 {
 	int			g_i;
 	char		str[9];
-    
+
 	str[8] = '\0';
 	if (sig == 10)
 		str[g_i] = '0';
